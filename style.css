@@ -1,0 +1,110 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(26, 26, 26);
+}
+
+.soundpad {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    height: 835px;
+    width: 345px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 8px;
+}
+
+.tecla {
+    height: 155px;
+    width: 155px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tecla:focus {
+    box-shadow: 1px 1px 10px rgb(122, 122, 122);;
+}
+
+.tecla_zap {
+    background-color: rgb(0, 255, 0)
+}
+
+.tecla_zap:hover {
+    background-color: rgb(20, 160, 20)
+}
+
+.tecla_rizz {
+    background-color: red;
+}
+
+.tecla_rizz:hover {
+    background-color: rgb(148, 0, 0);
+}
+
+.tecla_sponge {
+    background-color: yellow;
+}
+
+.tecla_sponge:hover {
+    background-color: rgb(180, 180, 0);
+}
+
+.tecla_galaxy {
+    background-color: blue;
+}
+
+.tecla_galaxy:hover {
+    background-color: rgb(1, 1, 168);
+}
+
+.tecla_among {
+    background-color: cyan;
+}
+
+.tecla_among:hover {
+    background-color: rgb(0, 167, 167);
+}
+
+.tecla_ling {
+    background-color: pink;
+}
+
+.tecla_ling:hover {
+    background-color: rgb(207, 145, 155);
+}
+
+.tecla_win {
+    background-color: greenyellow;
+}
+
+.tecla_win:hover {
+    background-color: rgb(137, 223, 9);
+}
+
+.tecla_aww {
+    background-color: rgb(151, 44, 250);
+}
+
+.tecla_aww:hover {
+    background-color: rgb(113, 17, 202);
+}
+
+.tecla_raze {
+    background-color: orange;
+}
+
+.tecla_raze:hover {
+    background-color: rgb(194, 127, 3);
+}
+
+.tecla_song {
+    background-color: grey;
+}
+
+.tecla_song:hover {
+    background-color: rgb(97, 97, 97);
+}
